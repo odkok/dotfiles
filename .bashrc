@@ -14,3 +14,6 @@ PS1='[\u@\h \W]\$ '
 export PATH=$PATH:~/miniconda3/bin
 
 . "$HOME/.local/bin/env"
+
+# make 'conda activate' works without running conda init
+source ~/miniconda3/etc/profile.d/conda.sh
